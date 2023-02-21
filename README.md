@@ -7,3 +7,5 @@ Utilizando para manejo de rutas React.RouterDom
 Responsive web desing 
 
 <img width="1280" alt="Captura de Pantalla 2023-02-20 a la(s) 10 16 55 p m" src="https://user-images.githubusercontent.com/101303440/220246709-5920d0bc-3769-482e-a675-32db0e198234.png">
+
+<img width="1399" alt="Captura de Pantalla 2023-02-20 a la(s) 10 18 27 p m" src="https://user-images.githubusercontent.com/101303440/220246917-faa69a26-6277-432d-ae30-ea36472116ba.png">
