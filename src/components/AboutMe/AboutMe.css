@@ -1,0 +1,62 @@
+.AboutToMe{
+  background-color: #1f1d1d;
+  height: 55rem;
+  margin-top: -80px;
+  color: white;
+  padding-left: 11rem; 
+}
+
+.descriptionMe {
+  font-size: 15px;
+  margin-right: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10%;
+  padding-top: 2rem;
+  padding-bottom: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.subtitles{
+  font-size: 30px;
+  font-weight: 20rem;
+  color: darkturquoise;
+}
+.imgMe{
+  margin-left: 45%;
+  margin-top: -40rem;
+  height: 34rem;
+  width: 23rem;
+  border-radius: 10px;
+}
+span{
+  font-weight: bold;
+}
+.about-me-title {
+  color:darkturquoise;
+  padding-top: 20px;
+  padding-bottom: -10rem;
+  padding-left: 37%; 
+  margin-top: 10px;
+}
+
+@media (max-width: 414px )   {
+  .AboutToMe{
+    display: flex;
+    flex-direction: column;
+    margin-top: -110px;
+  }
+  .about-me-title{
+    margin-left: -70px;
+    padding-top: 80px;
+    padding-left: 20px;
+  }
+  .descriptionMe{
+    margin-left: -140px;
+    margin-right: 1rem;
+  }
+  .imgMe{
+    display: none;
+  }
+}
