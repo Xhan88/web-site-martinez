@@ -16,7 +16,7 @@ const AboutMe = () => {
                 <span className='subtitles'>Focus</span>
                 I fully trust that with discipline, dedication and a firm and passionate will, goals that seem very distant at the beginning can be achieved, it is incredible what in a year of studies I have managed to create and learn and I am dying of emotion to know what you will learn through the years
         </h6>
-     <img className='imgMe' src="/profil.jpg" alt="" />
+     <img className='imgMe' src="https://firebasestorage.googleapis.com/v0/b/pedicure-susy.appspot.com/o/mywebpack%2Fprofil.jpg?alt=media&token=7caac150-583d-44c5-9968-43a86fb89dd7&_gl=1*1iro7uw*_ga*NjMxMDY4NzMxLjE2NzkwNjIxODE.*_ga_CW55HF8NVT*MTY4NTQyMjUzNC44LjEuMTY4NTQyMzAwNS4wLjAuMA.." alt="" />
     </div>
   )
 }
