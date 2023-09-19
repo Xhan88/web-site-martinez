@@ -7,10 +7,34 @@ const Carousel = () => {
   
   return (
     <div>
-      <div id="carouselExample" className="carousel slide ">
+      <div id="carouselExample" className="carousel slide animate__animated animate__fadeIn">
         <div className="carousel-inner">
 
-          <div className="carousel-item active img-style">
+        <div className="carousel-item active img-style">
+                      <a href="https://github.com/Xhan88/pedicure-susy" target="_blank">
+                          <img 
+                          src="https://firebasestorage.googleapis.com/v0/b/pedicure-susy.appspot.com/o/mywebpack%2Fproyecto-08.jpg?alt=media&token=2b12eb95-9f39-43f9-909a-ff12a02696ed"  
+                          className="d-block  img-proyect" 
+                          alt=""/>
+                      </a>
+
+                      <a href="https://github.com/Xhan88/super-heros" target="_blank">
+                          <img 
+                          src="https://firebasestorage.googleapis.com/v0/b/pedicure-susy.appspot.com/o/mywebpack%2Fproyecto-07.jpg?alt=media&token=723af217-0c52-4536-b35e-ff13124272db"
+                          className="d-block  img-proyect" 
+                          alt=""/>
+                      </a>
+
+                      <a href="https://github.com/Xhan88/recetario" target="_blank">
+                          <img 
+                          src="https://firebasestorage.googleapis.com/v0/b/pedicure-susy.appspot.com/o/mywebpack%2Fproyecto-09.jpg?alt=media&token=bca5e496-875b-4e61-a9c0-d2c4610bf5fb" 
+                          className="d-block  img-proyect" 
+                          alt=""/>
+                      </a>
+                        
+                  </div>
+
+          <div className="carousel-item  img-style">
               <a href='https://gifsexpertapp888.netlify.app/' target="_blank">
                   <img 
                   src="https://firebasestorage.googleapis.com/v0/b/pedicure-susy.appspot.com/o/mywebpack%2Fproyect-01.jpg?alt=media&token=ad981e14-e9e8-42b3-a211-a6e251d499b5&_gl=1*171ykzl*_ga*NjMxMDY4NzMxLjE2NzkwNjIxODE.*_ga_CW55HF8NVT*MTY4NTQyMjUzNC44LjEuMTY4NTQyMjkyOS4wLjAuMA.."  
@@ -56,6 +80,8 @@ const Carousel = () => {
                 alt=""/>
         </a>
     </div>
+
+    
 
   </div>
 
