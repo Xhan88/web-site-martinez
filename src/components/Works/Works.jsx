@@ -8,8 +8,8 @@ const Works = () => {
     <div className='works'>
       <div className='description'>
         <h1 className='title-works'>| Works |</h1>
-        <p className='proyect-description'>
-          In this section of my page, I show some of my projects and the skills that I have been learning hard for a year. A small portfolio   where I show basic works of HTML, CSS, JavaScript EC6, React.js, Hooks, API, Redux, responsive and Bootstrap.
+        <p className='proyect-description animate__animated animate__fadeIn'>
+          In this section of my page, I show some of my projects and the skills that I have been learning hard for two year. A small portfolio   where I show basic works of HTML, CSS, JavaScript EC6, React.js, Hooks, API, responsive and Bootstrap.
         </p>
         <Carousel />
       </div>

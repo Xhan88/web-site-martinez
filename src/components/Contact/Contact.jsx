@@ -7,7 +7,7 @@ const Contact = () => {
     <div className='Contact'>
       <h1 className='contact-title'>| Contact me |</h1>
       
-        <ul className='contact-list'>
+        <ul className='contact-list  animate__animated animate__fadeIn'>
           <li>+52 378 142 63 60   </li>
           <li>christianmq888@gmail.com</li>
           <li>Tepatitlan de Morelos Jalisco.</li>
