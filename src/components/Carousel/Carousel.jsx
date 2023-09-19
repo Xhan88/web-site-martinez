@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Carousel/Carousel.css'
-import proyects from '../../../datos';
+
 
 
 const Carousel = () => {
@@ -11,7 +11,7 @@ const Carousel = () => {
         <div className="carousel-inner">
 
           <div className="carousel-item active img-style">
-              <a href={proyects.urlGit} target="_blank">
+              <a href='https://gifsexpertapp888.netlify.app/' target="_blank">
                   <img 
                   src="https://firebasestorage.googleapis.com/v0/b/pedicure-susy.appspot.com/o/mywebpack%2Fproyect-01.jpg?alt=media&token=ad981e14-e9e8-42b3-a211-a6e251d499b5&_gl=1*171ykzl*_ga*NjMxMDY4NzMxLjE2NzkwNjIxODE.*_ga_CW55HF8NVT*MTY4NTQyMjUzNC44LjEuMTY4NTQyMjkyOS4wLjAuMA.."  
                   className="d-block  img-proyect" 
