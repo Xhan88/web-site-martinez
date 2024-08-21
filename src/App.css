@@ -52,7 +52,7 @@
 body {
   background: url(/space.jpg)no-repeat;
   background-size: cover;
-  height: 52rem; 
+  height: 100vh; 
 }
 
 @media (max-width:  414px)   {
