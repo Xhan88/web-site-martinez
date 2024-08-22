@@ -5,35 +5,69 @@
   margin: 0 auto;
   border-radius: 50px;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
 }
+
+.img-proyect:hover {
+  transform: scale(1.05); /* Efecto hover */
+}
+
 .carousel-item.active {
   display: flex;
   flex-direction: row;
-  padding: 0 100px 0 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 100px;
 }
-.carousel-control-next, .carousel-control-prev  {
+
+.carousel-control-next, .carousel-control-prev {
   background-color: black;
   height: 100px;
   width: 100px;
   margin-top: 7rem;
 }
-.visually-hidden{
+
+.visually-hidden {
   display: none;
 }
 
-@media (max-width: 414px)   {
+/* Responsivo para dispositivos pequeños */
+@media (max-width: 768px) {
   .img-proyect {
-    height: 20rem;
-    width: 25rem;
+    height: 15rem;
+    width: 20rem;
     padding: 20px;
-    margin: 0 auto;
-    border-radius: 50px;
-    cursor: pointer;
   }
+
   .carousel-item.active {
-    display: flex;
+    padding: 0 50px;
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    height: 80px;
+    width: 80px;
+    margin-top: 5rem;
+  }
+}
+
+/* Responsivo para dispositivos muy pequeños */
+@media (max-width: 414px) {
+  .img-proyect {
+    height: 12rem;
+    width: 18rem;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  .carousel-item.active {
     flex-direction: column;
-    padding: 0px;
-    margin: -1px;   
+    padding: 0;
+    margin: 0;
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    height: 60px;
+    width: 60px;
+    margin-top: 3rem;
   }
 }

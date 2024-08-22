@@ -4,7 +4,9 @@ import 'animate.css'
 
 const AboutMe = () => {
   return (
-    <div className='AboutToMe'>
+    
+    
+     <div className='AboutToMe'>
       <h1 className='about-me-title'>| About Me |</h1>
           <h6 className='descriptionMe animate__animated animate__fadeIn'>
 
@@ -20,6 +22,7 @@ const AboutMe = () => {
      <img className='imgMe animate__animated animate__fadeInRight' src="https://firebasestorage.googleapis.com/v0/b/pedicure-susy.appspot.com/o/mywebpack%2Fprofil.jpg?alt=media&token=7caac150-583d-44c5-9968-43a86fb89dd7&_gl=1*1iro7uw*_ga*NjMxMDY4NzMxLjE2NzkwNjIxODE.*_ga_CW55HF8NVT*MTY4NTQyMjUzNC44LjEuMTY4NTQyMzAwNS4wLjAuMA.." alt="" />
     </div>
   )
+  
 }
 
 export default AboutMe

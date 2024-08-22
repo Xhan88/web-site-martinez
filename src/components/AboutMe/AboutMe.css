@@ -1,62 +1,82 @@
-.AboutToMe{
+.AboutToMe {
   background-color: #1f1d1d;
-  height: 55rem;
-  margin-top: -80px;
+  height: 100vh;
   color: white;
-  padding-left: 11rem; 
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+  gap: 2rem; /* Espacio entre las columnas */
+  align-items: center; /* Alinea el contenido verticalmente en el centro */
 }
 
 .descriptionMe {
-  font-size: 15px;
-  margin-right: 40rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10%;
-  padding-top: 2rem;
-  padding-bottom: 10px;
+  font-size: 1rem;
   font-family: 'Courier New', Courier, monospace;
+  max-width: 100%;
+ 
 }
 
-.subtitles{
-  font-size: 30px;
-  font-weight: 20rem;
+.subtitles {
+  font-size: 2rem;
+  font-weight: bold;
   color: darkturquoise;
 }
-.imgMe{
-  margin-left: 45%;
-  margin-top: -40rem;
-  height: 34rem;
-  width: 23rem;
+
+.imgMe {
+  max-width: 100%;
+  height: auto;
   border-radius: 10px;
-}
-span{
-  font-weight: bold;
-}
-.about-me-title {
-  color:darkturquoise;
-  padding-top: 20px;
-  padding-bottom: -10rem;
-  padding-left: 37%; 
-  margin-top: 10px;
+  margin: 0;
 }
 
-@media (max-width: 414px )   {
-  .AboutToMe{
-    display: flex;
-    flex-direction: column;
-    margin-top: -110px;
+span {
+  font-weight: bold;
+}
+
+.about-me-title {
+  color: darkturquoise;
+  padding: 1rem 0;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .AboutToMe {
+    grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
+    margin-top: -50px;
+    padding: 2rem 3%;
   }
-  .about-me-title{
-    margin-left: -70px;
-    padding-top: 80px;
-    padding-left: 20px;
+
+  .descriptionMe {
+    font-size: 0.9rem;
+    margin: 0 auto;
   }
-  .descriptionMe{
-    margin-left: -140px;
-    margin-right: 1rem;
+
+  .subtitles {
+    font-size: 1.5rem;
   }
-  .imgMe{
-    display: none;
+
+  .imgMe {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 414px) {
+  .AboutToMe {
+    margin-top: -30px;
+    padding: 1rem; /* Ajusta el padding para pantallas muy pequeñas */
+  }
+
+  .descriptionMe {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .about-me-title {
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .imgMe {
+    display: none; /* Oculta la imagen en pantallas muy pequeñas */
   }
 }
