@@ -1,78 +1,49 @@
 .presentation {
-  color:white;
+  color: white;
   font-family: monospace;
 }
 
-.greething{
+.greething, .greething-presentation {
   font-size: 60px;
-   margin-top: 300px;
-   margin-left: 30px;
-   overflow: hidden;
-   white-space: nowrap;
-   border-right: 0.15em solid #ffffff;
-   animation: typing 1s steps(28) 0.5s 1 normal both, blink 1s steps(1) infinite;
-  }
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%;
-    }
-  }
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }   
+  margin-top: 150px;
+  margin-left: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.15em solid #ffffff;
+  animation: typing 2s steps(28) 1 normal both, blink 0.75s step-end infinite;
 }
 
-.greething-presentation{
-  color: white;
-   margin-top: 30px;
-   margin-left: 30px;
-   overflow: hidden;
-   white-space: nowrap;
-   border-right: 0.15em solid #ffffff;
-   animation: typing 1s steps(28) 0.5s 1 normal both, blink 1s steps(1) infinite;
-  }
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%;
-    }
-  }
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }    
+/* Animación de máquina de escribir */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
 }
 
 body {
-  background: url(/space.jpg)no-repeat;
+  background: url(/space.jpg) no-repeat;
   background-size: cover;
   height: 100vh; 
+  width: 100vw;
+  overflow: hidden; /* Evita el scroll */
 }
 
-@media (max-width:  414px)   {
-    .NavBar{
-      flex-direction: column;
-    }
-    body{
-      background: url(/space.jpg)no-repeat cover;
-      background-color: #1f1d1d;
-    }
-    .greething{
-      font-size: 30px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 20px;
-      padding: 20px;
-      padding-left: 0px;
-      white-space:nowrap;
-    }
-    
+@media (max-width: 414px) {
+  .NavBar {
+    flex-direction: column;
+  }
+  body {
+    background: url(/space.jpg) no-repeat;
+    background-color: #1f1d1d;
+    background-size: cover;
+  }
+  .greething {
+    font-size: 30px;
+    margin: 20px auto;
+    padding: 20px;
+    white-space: nowrap;
+  }
 }
-
