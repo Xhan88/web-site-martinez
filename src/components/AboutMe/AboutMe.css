@@ -4,12 +4,14 @@
   background-color: #1f1d1d;
   color: rgb(224, 224, 224);
   height: 100vh;
+  
   font-family: 'Courier New', Courier, monospace;
 }
-
-.title {
+.title-about {
+  margin-top: 4rem;
   color: aqua;
 }
+
 span{
   color: aqua;
 }
@@ -20,7 +22,7 @@ span{
   align-items: flex-start;
   gap: 2rem;
   flex-wrap: wrap; /* Para que sea responsivo */
-  margin-top: 5%;
+  margin-top: 1%;
 }
 /* @media (max-width: 2340px) {
   .content-section{
