@@ -58,6 +58,8 @@ const Contact = () => {
           </li>
 
         </ul>
+
+        <h6 style={{color:'grey'}}>© UNTITLED | Website created for Christian Martínez</h6>
         <div>
         
         </div>
