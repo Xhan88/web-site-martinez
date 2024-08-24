@@ -3,27 +3,6 @@
   font-family: monospace;
 }
 
-.greething, .greething-presentation {
-  font-size: 60px;
-  padding-top: 100px;
-  margin-top: 100px;
-  margin-left: 30px;
-  overflow: hidden;
-  white-space: nowrap;
-  border-right: 0.15em solid #ffffff;
-  animation: typing 2s steps(28) 1 normal both, blink 0.75s step-end infinite;
-}
-
-.name {
-  color: aliceblue;
-  font-size: 4rem;
-}
-
-/* Animación de máquina de escribir */
-@keyframes typing {
-  from { width: 0; }
-  to { width: 100%; }
-}
 
 @keyframes blink {
   50% { border-color: transparent; }
@@ -35,6 +14,20 @@ body {
   height: 100vh; 
   width: 100vw;
   overflow: hidden; /* Evita el scroll */
+}
+
+.greething {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20%;
+  color: aliceblue;
+}
+.greething h1 {
+  font-size: 5rem;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  text-shadow: 0 1px 5px #000;
+  padding-left: 4rem;
+  font-weight: bold;
 }
 
 @media (max-width: 414px) {
