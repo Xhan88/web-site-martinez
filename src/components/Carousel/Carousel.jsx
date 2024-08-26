@@ -42,9 +42,9 @@ const Carousel = () => {
                   alt=""/>
               </a>
 
-              <a href="https://github.com/Xhan88/proyecto-final-e-commerce" target="_blank">
+              <a href="https://github.com/Xhan88/Christian-Butcher" target="_blank">
                   <img 
-                  src="https://firebasestorage.googleapis.com/v0/b/pedicure-susy.appspot.com/o/mywebpack%2Fproyect-02.jpg?alt=media&token=8d21be4c-ef58-40e9-8002-be6cdfe85db4&_gl=1*1sg0bil*_ga*NjMxMDY4NzMxLjE2NzkwNjIxODE.*_ga_CW55HF8NVT*MTY4NTQyMjUzNC44LjEuMTY4NTQyMzE0MS4wLjAuMA.." 
+                  src="https://firebasestorage.googleapis.com/v0/b/web-site-proyects.appspot.com/o/Captura%20de%20pantalla%202024-08-23%20a%20la(s)%2011.08.57%20p.m..png?alt=media&token=cbaae83f-9704-4064-9929-f873f301ff0a" 
                   className="d-block  img-proyect" 
                   alt=""/>
               </a>
