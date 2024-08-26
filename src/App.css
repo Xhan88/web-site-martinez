@@ -1,8 +1,8 @@
+/* Estilo general */
 .presentation {
   color: white;
   font-family: monospace;
 }
-
 
 @keyframes blink {
   50% { border-color: transparent; }
@@ -13,36 +13,43 @@ body {
   background-size: cover;
   height: 100vh; 
   width: 100vw;
-  overflow: hidden; /* Evita el scroll */
+  margin: 0; /* Elimina el margen por defecto del body */
 }
 
+/* Estilo para el contenedor de saludo */
 .greething {
   display: flex;
   flex-direction: column;
-  padding-top: 20%;
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+ 
   color: aliceblue;
-}
-.greething h1 {
-  font-size: 5rem;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-  text-shadow: 0 1px 5px #000;
-  padding-left: 4rem;
-  font-weight: bold;
+  padding: 10% 2%; /* Ajusta el padding para que sea responsivo */
 }
 
+.greething h1 {
+  font-size: 5rem; /* Tamaño de fuente grande para pantallas grandes */
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  text-shadow: 0 1px 5px #000;
+  font-weight: bold;
+  
+}
+
+/* Media Query para pantallas pequeñas */
 @media (max-width: 414px) {
-  .NavBar {
-    flex-direction: column;
-  }
   body {
-    background: url(/space.jpg) no-repeat;
+    background: url(/backgroundmq.jpg) no-repeat;
     background-color: #1f1d1d;
-    background-size: cover;
+    /* background-size: cover; */
+    padding-top: 5rem;
   }
+
   .greething {
-    font-size: 30px;
-    margin: 20px auto;
     padding: 20px;
-    white-space: nowrap;
+    font-size: 1.5rem; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+  }
+
+  .greething h1 {
+    font-size: 2.5rem; /* Reduce el tamaño de fuente del h1 */
   }
 }

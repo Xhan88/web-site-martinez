@@ -34,5 +34,9 @@
   list-style: none;
   margin: 2rem;
   gap: 3rem;
+  color: white;
 }
 
+@media (min-width: 2340px) {
+ 
+}
