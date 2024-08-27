@@ -14,10 +14,9 @@
 .NavBar ul {
   list-style: none;
   display: flex;
-  gap: 4rem;
+  gap: 6rem;
   padding: 0;
-  margin: 0;
-  
+  margin: 0;  
 }
 
 .NavBar ul li {
@@ -52,4 +51,10 @@
 
 .navbar-contact {
   background-color: #1f1d1d; /* Fondo para la sección Contact */
+}
+
+@media(max-width: 459px ) {
+  .NavBar ul {
+    gap: 3rem;
+  }
 }

@@ -21,10 +21,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center; /* Centra verticalmente */
-  align-items: center; /* Centra horizontalmente */
  
   color: aliceblue;
-  padding: 10% 2%; /* Ajusta el padding para que sea responsivo */
+  padding: 10% 4%; /* Ajusta el padding para que sea responsivo */
 }
 
 .greething h1 {
@@ -36,11 +35,12 @@ body {
 }
 
 /* Media Query para pantallas pequeñas */
-@media (max-width: 414px) {
+@media (max-width: 459px) {
   body {
     background: url(/backgroundmq.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: #1f1d1d;
-    /* background-size: cover; */
     padding-top: 5rem;
   }
 
@@ -51,5 +51,15 @@ body {
 
   .greething h1 {
     font-size: 2.5rem; /* Reduce el tamaño de fuente del h1 */
+  }
+}
+@media (max-width: 1024px) {
+  body {
+    background: url(/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .greething {
+    padding-top: 14rem;
   }
 }
