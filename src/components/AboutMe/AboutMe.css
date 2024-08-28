@@ -2,14 +2,14 @@
   padding: 20px;
   text-align: center;
   background-color: #1f1d1d;
-  color: rgb(224, 224, 224);
   height: 100vh;
-  
+  color: rgb(224, 224, 224);
   font-family: 'Courier New', Courier, monospace;
 }
 .title-about {
   margin-top: 4rem;
   color: greenyellow;
+  font-size: 2.5rem;
 }
 
 span{
@@ -21,18 +21,10 @@ span{
   justify-content: center;
   align-items: flex-start;
   gap: 2rem;
-  flex-wrap: wrap; /* Para que sea responsivo */
+  flex-wrap: wrap; 
   margin-top: 1%;
 }
-/* @media (max-width: 2340px) {
-  .content-section{
-    font-size: 1.3rem;
-  }
-  .imgMe{
-    flex: 1;
-    width: 3rem;
-  }
-} */
+
 
 .text {
   flex: 1;
@@ -43,8 +35,8 @@ span{
 
 .image {
   flex: 1;
-  min-width: 200px; /* Ajustar para responsividad */
-  max-width: 400px; /* Ancho máximo para la imagen */
+  min-width: 100px; /* Ajustar para responsividad */
+  max-width: 300px; /* Ancho máximo para la imagen */
   
 }
 
@@ -60,4 +52,10 @@ span{
   display: block;
   margin-top: 15px;
   margin-bottom: 10px;
+}
+
+@media(max-width: 440px) {
+.AboutMe {
+  height: auto;
+}
 }
