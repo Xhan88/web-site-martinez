@@ -1,10 +1,10 @@
 .AboutMe {
-  padding: 20px;
+   padding: 10px; 
   text-align: center;
   background-color: #1f1d1d;
   height: 100vh;
   color: rgb(224, 224, 224);
-  font-family: 'Courier New', Courier, monospace;
+ 
 }
 .title-about {
   margin-top: 4rem;
@@ -23,20 +23,21 @@ span{
   gap: 2rem;
   flex-wrap: wrap; 
   margin-top: 1%;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 
 .text {
   flex: 1;
-  min-width: 300px; /* Ajustar para responsividad */
-  max-width: 500px; /* Ancho máximo para el texto */
-  text-align: left; /* Alineación del texto a la izquierda */
+  min-width: 300px; 
+  max-width: 500px; 
+  text-align: left; 
 }
 
 .image {
   flex: 1;
-  min-width: 100px; /* Ajustar para responsividad */
-  max-width: 300px; /* Ancho máximo para la imagen */
+  min-width: 300px; 
+  max-width: 400px;
   
 }
 
@@ -44,7 +45,7 @@ span{
   margin-top: 3rem;
   width: 100%;
   height: auto;
-  border-radius: 10px; /* Bordes redondeados para la imagen */
+  border-radius: 10px;
 }
 
 .subtitles {

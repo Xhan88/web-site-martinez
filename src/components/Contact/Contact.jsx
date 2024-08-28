@@ -59,7 +59,7 @@ const Contact = () => {
 
         </ul>
 
-        <h6 style={{color:'grey'}}>© UNTITLED | Website created for Christian Martínez</h6>
+        <p style={{color:'grey',}}>© UNTITLED | Website created for Christian Martínez</p>
         <div>
         
         </div>

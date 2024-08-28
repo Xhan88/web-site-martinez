@@ -60,7 +60,7 @@
 @media (max-width: 459px) {
   .works {
     margin-top: 3rem;
-    height: 100vh; 
+    height: block; 
     display: block;
   }
 
