@@ -51,11 +51,11 @@
 }
 
 /* Responsivo para dispositivos muy pequeños */
-@media (max-width: 414px) {
+@media (max-width: 459px) {
   .img-proyect {
     height: 12rem;
-    width: 18rem;
-    padding: 10px;
+    width: 20rem;
+    padding: 5%;
     margin: 0 auto;
   }
 
